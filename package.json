@@ -1,0 +1,24 @@
+{
+  "name": "wesmo",
+  "version": "1.0.0",
+  "description": "jquery react D3",
+  "source": "src/index.html",
+  
+  "scripts": {
+    "lint": "npx eslint src/js/**",
+    "start": "parcel",
+    "prod": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wessmo",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.8.2",
+    "jquery": "^3.6.3",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}
